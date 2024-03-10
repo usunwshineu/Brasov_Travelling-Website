@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Your guide to Brasov</title>
+        <meta name="title" content="Your guide to Brasov">
+        <meta name="description" content="This is your chance to be amazed by the wonders of Brasov">
+    
+        <!--favicon-->
+        <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    
+        <!--css link-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+        <link rel="preload" as="image" href="./images/brassov.png">
+        <link rel="preload" as="image" href="./images/preloader.svg">
+    
+        <!--google font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--faster and easier to load library files on the websites-->
+    </head>
+<body>
+    <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+            <img src="./images/preloader.svg" width="50" height="50" alt="" class="img">
+        </div>
+    </div>
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./images/LOGO.png" width="187" height="38" alt="logo"> <!--IMAGE-->
+            </a>
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./images/LOGO.png" width="187" height="38" alt="logo">
+                    </a>
+                    <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-ouline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a href="travel.html" class="navbar-link active">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="values.html" class="navbar-link">Our Values</a>
+                        </li>
+                        <li class="navbar-item">  
+                            <a href="experience.html" class="navbar-link">Experience</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="gallery.html" class="navbar-link">Gallery</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="dest.html" class="navbar-link">Places to visit</a>
+                        </li>
+                    </ul>
+                <div class="header-action">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <a href="signUp.html" class="btn btn-primary">Sign Up</a>
+                </div>
+            </nav>
+            <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <div class="overlay" data-overlay data-nav-toggler></div>
+        </div>
+    </header>
+    <form action="action_page.php" method="post">
+      
+        <div class="placeholder">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="registerbtn">Login</button><br>
+          <label class="remember">
+            Remember me<input type="checkbox" checked="checked" name="remember" class="tiny">
+          </label>          
+        </div>
+      
+        <div class="container2" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="./images/LOGO.png" width="187" height="38" alt="logo">
+                    </a>
+                    <p class="footer-text">
+                        We always prepare a large variety of places for
+                        our customers, thus ensuring they get to see the
+                        real local wonders and not just the tourist spots.
+                    </p>
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://www.instagram.com/usunwshineu/" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/Mir112" class="social-link">
+                                <ion-icon name="logo-facebook">
+                                </ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/blckrssfrthpnks" class="social-link">
+                                <ion-icon name="logo-twitter">
+                                </ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">About</p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">News</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Menu</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Organization</p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Why Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Partner with Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Blog</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Support</p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Account</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Support Center</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Feedback</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Accessibility</a>
+                    </li>
+                </ul>
+                <div class="footer-list">
+                    <p class="footer-list-title">Get in Touch</p>
+                    <p class="footer-text">
+                        Question or feedback? We'd love to hear from you.
+                    </p>
+                    <form action="" class="input-wrapper">
+                        <input type="email" name="email_address" placeholder="Email Address" autocomplete="off" required class="input-field">
+                        <button type="submit" class="input-btn" aria-label="send a message">
+                            <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    Copyright 2023. Made by <a href="" class=copyright-link">Moraru Anastasia</a>
+                </p>
+                <ul class="footer-bottom-list">
+                    <li>
+                        <a href="#" class="footer-bottom-link">Terms and Condition</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-bottom-link">Privacy and Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--js link-->
+    <script src="./files/script.js"></script>
+
+    <!--ionicon links-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
